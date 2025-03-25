@@ -1,2 +1,10 @@
 $apxutechtop_samosbor_market $mol_view
-	sub / \Hello
+	sub /
+		<= Header
+		<= Filter
+		<= Table
+	Header $mol_view sub /
+	Filter $mol_view sub /
+	Table $mol_list
+		dom_name \table
+		rows <= trades_list /

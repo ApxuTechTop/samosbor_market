@@ -1,0 +1,21 @@
+$apxutechtop_samosbor_market_trade $mol_view
+	dom_name \tr
+	sub /
+		<= Item $mol_link_iconed
+			title <= item_name \
+			icon <= item_uri \/apxutechtop/samosbor/market/item/thumbs/torch.webp
+		<= UserName $mol_link
+			title <= user_name \
+		<= Count $mol_view
+			sub /
+				\x
+				<= count
+		<= Cost $mol_view
+			sub /
+				<= Numerator $mol_view
+					sub / <= cost_count
+				<= Delimeter $mol_view
+					sub / \/
+				<= Denominator $mol_view
+					sub /
+						<= cost_talons

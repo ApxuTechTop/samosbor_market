@@ -1,0 +1,24 @@
+{
+	"123": {
+		"user": "alex",
+		"item": {
+			"id": "torch"
+		},
+		"count": 6,
+		"cost": {
+			"count": 2,
+			"talons": 3
+		}
+	},
+	"124": {
+		"user": "steve",
+		"item": {
+			"id": "fat_rat"
+		},
+		"count": 3,
+		"cost": {
+			"count": 1,
+			"talons": 2
+		}
+	}
+}
